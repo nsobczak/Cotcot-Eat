@@ -3,14 +3,7 @@ header{
 	position: absolute;
 	top: 0;
 	left: 0;
-	height: 15%;
 	width: 100%;
-}
-
-h1{
-	color: white;
-	text-align: center;
-	text-decoration: none;
 }
 
 footer {
@@ -20,4 +13,16 @@ footer {
 	bottom: 0;
 	height: 5%;
 	width: 100%;
+}
+
+h1{
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+#link{
+	text-align: center;
+	text-decoration: none;
 }
