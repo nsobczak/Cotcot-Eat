@@ -1,33 +1,42 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8" />
-        <title>Chicken Page</title>
-		<link rel="stylesheet" type="text/css" href="cuisine.css">
+        
+        <meta charset="UTF-8">
+		<meta name="description" content="Cotcot Eat">
+		<meta name="keywords" content="recipe">
+		<meta name="author" content="Julien Vermeil & Nicolas Sobczak">
+
+		<title>CotcotEat.com</title>
+
+		<link rel="stylesheet" type="text/css" href="cotcotStyle.css">
     </head>
 
     <body>
 	
 		<header>
-			<a href="cuisine.html"><h1>Cotcot Eat</h1></a>
-		
-			<div id="liens">
-				<a href="page2.html">Search</a>
-				<a href="page2.html">Recipe</a>
-				<a href="page2.html">Contact us</a>
-			</div>
+		<a href="index.html"> <h1> Cotcot Eat </h1> </a>  
+		<ul>
+		  <li><a class="active" href="search.html">Search</a></li>
+		  <li class="dropdown">
+		    <a href="recipe.html">Recipe</a>
+		    <div class="dropdown-content">
+		      <a href="chicken.html">Chicken</a>
+		      <a href="beef.html">Beef</a>
+		    </div>
+		  </li>
+		  <li><a href="contactUs.html">Contact us</a></li>
+		  <li><a href="extra.html">Extra</a></li>
+		</ul>
 		</header>
+		<br>
 	
-	
-		<section>
-		
-			<div id="tableau">
-			<table>			<!-- balise du tableau  -->
-				<tr>					<!-- balise d'une ligne de tableau -->
-					<th>Name</th>		<!-- balise de début et fin de tableau -->
+		<aside id="resume">
+			<table>
+				<tr>
+					<th>Name</th>		
 					<th>Quantity</th>
 				</tr>
-
 				<tr>
 					<td>chicken</td>
 					<td>1kg</td>
@@ -37,19 +46,34 @@
 					<td>1cl</td>
 				</tr>
 			</table>
-			</div>
-			
-			<img src="chicken.jpg" class="image" alt="chicken" />
-	
+		</aside>
+
+		<section>
+			<table id="mainTab">
+				<tr>
+					<td rowspan="3"><nav><img id="image" src="image/chicken.jpeg" alt="chicken"></nav></td>
+					<td>Preparation time : 10 minutes <br>
+					Backing time : 80 minutes </td>
+				</tr>
+				<tr>
+					<td><h2>Preparation</h2></td>
+				</tr>
+				<tr>
+					<td>blablabla blablabla  blablabla blablabla blablabla blablabla blablabla blablabla blablabla <br>
+					blablabla blablabla  blablabla blablabla blablabla blablabla blablabla blablabla blablabla <br>
+					blablabla blablabla  blablabla blablabla blablabla blablabla blablabla blablabla blablabla</td>
+				</tr>
+			</table>
+		<div>
+			<h2>Backing</h2>
+			<p>blablabla blablabla  blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla  blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla  blablabla blablabla blablabla blablabla blablabla blablabla blablabla</p>
+			<p>blablabla blablabla  blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla  blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla  blablabla blablabla blablabla blablabla blablabla blablabla blablabla</p>
+		</div>
 		</section>
 	
-	
-	
-	
+		<br>
 		<footer>
-	
-	
+			<a id="footerLink" href="http://www.cdiscount.com/"> Visit Cdiscount Web site</a>
 		</footer>
-	
 	</body>
 </html>  	

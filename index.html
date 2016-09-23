@@ -4,8 +4,8 @@
 <head>
 
 	<meta charset="UTF-8">
-	<meta name="description" content="HelloWorld">
-	<meta name="keywords" content="keyworld exemple">
+	<meta name="description" content="Cotcot Eat">
+	<meta name="keywords" content="recipe">
 	<meta name="author" content="Julien Vermeil & Nicolas Sobczak">
 
 	<title>CotcotEat.com</title>
@@ -18,15 +18,17 @@
 
 	<a href="index.html"> <h1> Cotcot Eat </h1> </a>  
 
-	<ul id="menu-deroulant">
-		<li><a href="search.html"> Search </a></li>
-		<li><a href="#">Recipe</a>
-			<ul>
-				<li><a href="#">Chicken</a></li>
-				<li><a href="#">Beef</a></li>
-			</ul>
-		</li>
-		<li><a href="#"> Contact us </a></li>
+	<ul>
+	  <li><a class="active" href="search.html">Search</a></li>
+	  <li class="dropdown">
+	    <a href="recipe.html">Recipe</a>
+	    <div class="dropdown-content">
+	      <a href="chicken.html">Chicken</a>
+	      <a href="beef.html">Beef</a>
+	    </div>
+	  </li>
+	  <li><a href="contactUs.html">Contact us</a></li>
+	  <li><a href="extra.html">Extra</a></li>
 	</ul>
 
 	</header>
@@ -34,10 +36,7 @@
 
 	<section>
 		<div id="logo">
-			<br>
-			<br>
-			<br>
-			<img id="cotcotLogo" src="image/logo.jpg">
+			<img id="cotcotLogo" src="image/logo.jpg" alt="cotcotLogo">
 		</div>
 	</section>
 

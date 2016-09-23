@@ -4,10 +4,16 @@ header{
 	top: 0;
 	left: 0;
 	width: 100%;
+	margin-top:0%;
 }
 
 section{
 	position: static;
+	margin-top: 10%;
+}
+
+nav{
+	margin-top: 10%;
 }
 
 footer {
@@ -42,6 +48,16 @@ a{
 	text-decoration: none;
 }
 
+#image{
+	text-align: center;
+}
+
+#imageRecipe{
+	text-align: center;
+	max-width: 100%;
+    height: auto;
+}
+
 #logo{
 	text-align: center;
 }
@@ -50,35 +66,74 @@ a{
 	max-width: 50%;
 }
 
+#bold{
+	font-weight: bold;
+}
+
+#resume {
+	position : fixed;
+	right : 0;
+	background-color : grey;
+	text-align: center;
+	border-radius: 15px;
+	margin-top:10%;
+	margin-right:4%;
+	width: 180px;
+}
+
+#mainTab{
+	text-align: left;
+	margin-top: 10%;
+}
 
 /*menu deroulant*/
-#menu-deroulant, #menu-deroulant ul {
-    padding: 0;
+ul {
+    list-style-type: none;
     margin: 0;
-    list-style: none;
-}
-#menu-deroulant li {
-/* on place les liens du menu horizontalement */
-    display: inline-block;
-}
-#menu-deroulant ul li {
-/* on enlève ce comportement pour les liens du sous menu */
-    display: inherit;
+    padding: 0;
+    overflow: hidden;
     background-color: cornflowerblue;
 }
-#menu-deroulant a {
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+    background-color: lightgrey;
+    color: black;
+    padding: 12px 16px;
     text-decoration: none;
     display: block;
-	color: black;
-}
-#menu-deroulant ul {
-    position: absolute;
-/* on cache les sous menus complètement sur la gauche */
-    left: -999em;
     text-align: left;
-    z-index: 1000;
 }
-#menu-deroulant li:hover ul {
-/* Au survol des li du menu on replace les sous menus */
-    left: auto;
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
