@@ -12,7 +12,8 @@ section{
 
 footer {
 	background-color: red;
-	position: absolute;
+	position: fixed;
+	text-align: center;
 	left: 0;
 	bottom: 0;
 	height: 5%;
@@ -27,7 +28,6 @@ footer {
 
 #footerLink{
 	color: green;
-	text-align: center;
 	text-decoration: none;
 }
 
