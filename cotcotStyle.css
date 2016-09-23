@@ -6,6 +6,10 @@ header{
 	width: 100%;
 }
 
+section{
+	position: static;
+}
+
 footer {
 	background-color: red;
 	position: absolute;
@@ -15,14 +19,33 @@ footer {
 	width: 100%;
 }
 
+#headerLink{
+	color: black;
+	text-align: center;
+	text-decoration: none;
+}
+
+#footerLink{
+	color: green;
+	text-align: center;
+	text-decoration: none;
+}
+
+
 h1{
 	color: white;
 	text-align: center;
 	text-decoration: none;
 }
 
-
-#link{
-	text-align: center;
+a{
 	text-decoration: none;
+}
+
+#logo{
+	text-align: center;
+}
+
+#cotcotLogo{
+	max-width: 50%;
 }
