@@ -1,5 +1,10 @@
-#blueBar{
-	background-color: #6495ed; 
+header{
+	background-color: cornflowerblue;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 15%;
+	width: 100%;
 }
 
 h1{
@@ -8,12 +13,11 @@ h1{
 	text-decoration: none;
 }
 
-#linkBlueBar{
-	background-color: #6495ed; 
-}
-
 footer {
-	position: absolute; 
-	bottom: 10;
 	background-color: red;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 5%;
+	width: 100%;
 }
