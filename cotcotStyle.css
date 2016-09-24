@@ -26,17 +26,11 @@ footer {
 	width: 100%;
 }
 
-#headerLink{
-	color: black;
-	text-align: center;
+
+footer a {
+    color: green;
 	text-decoration: none;
 }
-
-#footerLink{
-	color: green;
-	text-decoration: none;
-}
-
 
 h1{
 	color: white;
@@ -58,6 +52,11 @@ a{
     height: auto;
 }
 
+#imageCotcotRescue{
+	text-align: center;
+	border: 2px black solid;
+}
+
 #logo{
 	text-align: center;
 }
@@ -70,15 +69,25 @@ a{
 	font-weight: bold;
 }
 
-#resume {
+aside {
 	position : fixed;
 	right : 0;
-	background-color : grey;
-	text-align: center;
+	background-color : lightgrey;
 	border-radius: 15px;
+    border: 3px grey outset;
 	margin-top:10%;
 	margin-right:4%;
 	width: 180px;
+}
+
+aside table tr th {
+	text-align: center;
+}
+
+aside table tr td {
+	text-align: left;
+	margin-left:10%;
+	width: 100px;
 }
 
 #mainTab{
