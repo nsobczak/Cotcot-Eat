@@ -1,4 +1,3 @@
 # Cotcot-Eat
 
-Website from the web course.
-TP1
+Website eat.com from the web course.
