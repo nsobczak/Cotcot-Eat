@@ -43,18 +43,22 @@ a{
 }
 
 #image{
-	text-align: center;
+	text-align: left;
+	width: 100%;
+    height: auto;
 }
 
 #imageRecipe{
 	text-align: center;
-	max-width: 100%;
+	width: 100%;
     height: auto;
 }
 
 #imageCotcotRescue{
 	text-align: center;
 	border: 2px black solid;
+	width: 100%;
+    height: auto;
 }
 
 #logo{
@@ -88,6 +92,10 @@ aside table tr td {
 	text-align: left;
 	margin-left:10%;
 	width: 100px;
+}
+
+#mainSection{
+	margin-right: 220px;
 }
 
 #mainTab{
